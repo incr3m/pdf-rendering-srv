@@ -19,6 +19,7 @@ RUN pwd
 USER app
 RUN git clone https://github.com/alvarcarto/url-to-pdf-api pdf-rendering-srv
 WORKDIR $APP_HOME
+RUN echo "" > .env
 RUN npm install
 
 EXPOSE 9000
