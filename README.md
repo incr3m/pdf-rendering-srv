@@ -5,7 +5,9 @@ It uses the [chrome-headless-trunk](https://github.com/alpeware/chrome-headless-
 as base image for Chrome and packages the [url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api)
 library to form a solid and easy-to-use microservice.
 
-The image is available on [docker hub](https://cloud.docker.com/u/restorecommerce/repository/docker/restorecommerce/pdf-rendering-srv).
+## Docker Image
+
+The image is available on [docker hub](https://hub.docker.com/r/incr3m/pdf-rendering-srv).
 
 ## Running
 
